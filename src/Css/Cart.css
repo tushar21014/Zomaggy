@@ -1,0 +1,40 @@
+.card-cont{
+    
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: #f2f2f2;
+    border-radius: 25px;
+}
+
+.foodqty-cont{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.foodName{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.emptyCart{
+    background-image: url('../Screens/cart.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:center ;
+    height: 90vh;
+    display: flex;
+    align-items: end;
+    padding-bottom: 15px;
+}
+
+.trash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricee{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}

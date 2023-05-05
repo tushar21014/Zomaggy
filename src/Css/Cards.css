@@ -1,0 +1,67 @@
+.cardsSending {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    margin: 5vh 0vh;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px rgb(178, 176, 176);
+}
+
+.select-op{
+    border: none;
+}
+
+.select-op select{
+    -webkit-appearance:unset; /* Safari and Chrome */
+    appearance:none;
+}
+.sizeFood{
+    border-left: none;
+    border-right: none;
+    margin: 5px 10px;
+    /* margin-left: 20px; */
+}
+
+.row {
+    margin: auto;
+}
+
+.options-n-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 479px) {
+    .card-img-top {
+        max-height: 27vh;
+    }
+
+    .cardsSending {
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 769px) {
+    .cardsSending{
+        height: 63vh;
+    }
+    .Cards-cont{
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 770px) {
+
+    .card-img-top { 
+        max-height: 25vh;
+    }
+
+    .cardsSending {
+        height: 55vh;
+    }
+}

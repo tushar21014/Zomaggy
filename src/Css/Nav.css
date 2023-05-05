@@ -1,0 +1,27 @@
+#Nav-title{
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+#HomeNav,#LoginNav{
+    margin-left: 20px;
+}
+
+
+.nav-item{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    #myact{
+        width: 15vw;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 991px) {
+    #myact{
+        width: 65vw;
+        text-align: end;
+    }
+}   
+    

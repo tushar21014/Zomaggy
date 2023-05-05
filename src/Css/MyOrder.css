@@ -1,0 +1,62 @@
+.cont{
+    height: 77vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    /* background-image: url('../Screens/carttt.jpg'); */
+    background-repeat: no-repeat;
+    
+}
+
+.cartem{
+    background-image: url('../Screens/Empty_cart.png');
+    /* background-image: url('https://media.istockphoto.com/id/861576608/vector/empty-shopping-bag-icon-online-business-vector-icon-template.jpg?s=612x612&w=0&k=20&c=I7MbHHcjhRH4Dy0NVpf4ZN4gn8FVDnwn99YdRW2x5k0='); */
+    background-size: cover;
+    height: 70vh;
+    width: 72vh;
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#parent-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 10px auto 10px auto;
+    
+}
+
+#child-cont{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: #e3e1e1;
+    border-radius: 0px 30px 30px 0px;
+    /* box-shadow: 0px 0px 21px rgb(201, 201, 201); */
+}
+
+.nameCont{
+    display: flex;
+    font-size: 30px;
+    padding: 0px 25px;
+    margin-top: 12px;
+    flex-direction: column;
+}
+
+.imageCont{
+    padding: 12px;
+}
+
+.descriptionn{
+    font-size: 17px;
+}

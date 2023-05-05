@@ -1,0 +1,43 @@
+.Content{
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 69vh;
+    width: 100vw;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.loading-cont{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .loadingimg{
+    height: 100vh;
+    width: 100vh;
+} */
+
+@media only screen and (max-width: 479px) {
+    /* your styles here */
+    .Content{
+        height: 36vh;
+        font-size: 30px;
+    }
+}
+
+/* Tablets between 480px and 767px wide */
+@media only screen and (min-width: 480px) and (max-width: 769px) {
+
+    .Content{
+        height: 49vh;
+        font-size: 35px;
+    }
+  }
+  
