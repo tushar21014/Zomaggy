@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Zomaggy - Food Delivery System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Zomaggy is a full-stack food delivery system built using the MERN (MongoDB, Express, React, Node.js) stack. With Zomaggy, users can conveniently order food online from a wide range of restaurants. This project aims to provide a seamless and user-friendly experience for ordering food.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To run the Zomaggy project locally, you'll need to set up both the frontend and backend parts of the application. Here are the steps to get started:
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you begin, make sure you have the following software and tools installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js and npm](https://nodejs.org/): You need Node.js to run the project.
+- [MongoDB](https://www.mongodb.com/): You should have MongoDB installed and running for the backend.
+- [Git](https://git-scm.com/): You need Git for cloning the project repository.
 
-### `npm test`
+### Backend Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the Zomaggy repository:
 
-### `npm run build`
+   ```
+   git clone https://github.com/your-username/zomaggy.git
+   cd zomaggy
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the backend directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   cd backend
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install backend dependencies:
 
-### `npm run eject`
+   ```
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Set up environment variables:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   Create a `.env` file in the `backend` directory and configure necessary environment variables such as the database connection URL, JWT secret, etc.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Start the backend server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```
+   npm start
+   ```
 
-## Learn More
+### Frontend Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Navigate to the frontend directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```
+   cd ../frontend
+   ```
 
-### Code Splitting
+7. Install frontend dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+8. Start the frontend development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```
+   npm start
+   ```
 
-### Making a Progressive Web App
+Now, you can access the Zomaggy application in your web browser by navigating to [http://localhost:3000](http://localhost:3000) (or the specified frontend port).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to explore the project, order food, and enjoy the experience!
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
